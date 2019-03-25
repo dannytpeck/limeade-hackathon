@@ -1,0 +1,1680 @@
+<CloudEntity xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Designer">
+  <ActiveConfiguration>
+    <Name>Debug</Name>
+  </ActiveConfiguration>
+  <ApiLevel>8</ApiLevel>
+  <AppIconOverlayFullSize>false</AppIconOverlayFullSize>
+  <AppId>416630d6-67cd-41db-816e-5f67180d4368</AppId>
+  <AppSettings xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:AppSetting z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:DefaultValue>c2442138-c184-41dc-80b5-12f7f7186a54</d2p1:DefaultValue>
+      <d2p1:IsRequired>false</d2p1:IsRequired>
+      <d2p1:IsSecureString>false</d2p1:IsSecureString>
+      <d2p1:Name>CompanyId</d2p1:Name>
+    </d2p1:AppSetting>
+    <d2p1:AppSetting z:Id="i2" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:DefaultValue>e0q+W5Gi90lcTQxs1IHVySMgib/X5y631wJzitvGcky951cPskSO0k1aP6nSSAtjH9zAKVbQb9aNngkQJ4TQclru7DOlQG0L6buqGkO5teuzXgHhmPqRGyw/M6HktKyyGCozOp/21EJdQtllNXv3lDsMsFkGL9VEn/bmi9BpMV8=</d2p1:DefaultValue>
+      <d2p1:IsRequired>false</d2p1:IsRequired>
+      <d2p1:IsSecureString>false</d2p1:IsSecureString>
+      <d2p1:Name>CompanySecret</d2p1:Name>
+    </d2p1:AppSetting>
+  </AppSettings>
+  <AppTranslations xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:AppTranslation z:Id="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>de</d2p1:Code>
+      <d2p1:LanguageName>German</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i4" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>fr</d2p1:Code>
+      <d2p1:LanguageName>French</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i5" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>es</d2p1:Code>
+      <d2p1:LanguageName>Spanish</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>pt</d2p1:Code>
+      <d2p1:LanguageName>Portuguese</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i7" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>ru</d2p1:Code>
+      <d2p1:LanguageName>Russian</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i8" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>tr</d2p1:Code>
+      <d2p1:LanguageName>Turkish</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i9" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>da</d2p1:Code>
+      <d2p1:LanguageName>Danish</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i10" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>ar</d2p1:Code>
+      <d2p1:LanguageName>Arabic</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i11" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>nl</d2p1:Code>
+      <d2p1:LanguageName>Dutch</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i12" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>it</d2p1:Code>
+      <d2p1:LanguageName>Italian</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i13" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>sv</d2p1:Code>
+      <d2p1:LanguageName>Swedish</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i14" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>nn</d2p1:Code>
+      <d2p1:LanguageName>Norwegian</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i15" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>cs</d2p1:Code>
+      <d2p1:LanguageName>Czech</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i16" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>pl</d2p1:Code>
+      <d2p1:LanguageName>Polish</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i17" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>ja</d2p1:Code>
+      <d2p1:LanguageName>Japanese</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+    <d2p1:AppTranslation z:Id="i18" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:ApplicationName i:nil="true" />
+      <d2p1:Code>zh</d2p1:Code>
+      <d2p1:LanguageName>Chinese</d2p1:LanguageName>
+    </d2p1:AppTranslation>
+  </AppTranslations>
+  <AssetPaths xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Assets>
+    <LoadedDlls xmlns:d3p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model" />
+  </Assets>
+  <CardActions xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:Actions xmlns:d3p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" />
+  </CardActions>
+  <CardHeader xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model" z:Id="i19" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+    <d2p1:CardActionLabel xmlns:d3p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" z:Id="i20">
+      <d3p1:ID>f83374f2-b8d9-4831-9463-1d5a9a64e51c</d3p1:ID>
+      <d3p1:Name i:nil="true" />
+      <d3p1:ParentContainer i:nil="true" />
+      <d3p1:VisibleBinding z:Id="i21">
+        <d3p1:Parent z:Ref="i20" />
+        <d3p1:ComplexHintType xmlns:d5p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+        <d3p1:HintType xmlns:d5p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+          <d5p1:ElementType i:nil="true" />
+          <d5p1:FullTypeName>System.Boolean</d5p1:FullTypeName>
+          <d5p1:ListDictionaryType>None</d5p1:ListDictionaryType>
+          <d5p1:Members />
+          <d5p1:Name>Boolean</d5p1:Name>
+          <d5p1:Namespace>System</d5p1:Namespace>
+        </d3p1:HintType>
+        <d3p1:HintTypeIsList>false</d3p1:HintTypeIsList>
+        <d3p1:Value i:nil="true" />
+      </d3p1:VisibleBinding>
+      <d3p1:Alignment>Left</d3p1:Alignment>
+      <d3p1:Format>Standard</d3p1:Format>
+      <d3p1:Label i:nil="true" />
+      <d3p1:Style>SmallPrinted</d3p1:Style>
+      <d3p1:Text z:Id="i22">
+        <d3p1:Parent z:Ref="i20" />
+        <d3p1:SelectedLanguage i:nil="true" />
+        <d3p1:_values />
+      </d3p1:Text>
+    </d2p1:CardActionLabel>
+    <d2p1:CardTypeLabel xmlns:d3p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" z:Id="i23">
+      <d3p1:ID>6d6b10dd-00b8-4209-b8e1-cc4aea32bd27</d3p1:ID>
+      <d3p1:Name i:nil="true" />
+      <d3p1:ParentContainer i:nil="true" />
+      <d3p1:VisibleBinding z:Id="i24">
+        <d3p1:Parent z:Ref="i23" />
+        <d3p1:ComplexHintType xmlns:d5p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+        <d3p1:HintType xmlns:d5p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+          <d5p1:ElementType i:nil="true" />
+          <d5p1:FullTypeName>System.Boolean</d5p1:FullTypeName>
+          <d5p1:ListDictionaryType>None</d5p1:ListDictionaryType>
+          <d5p1:Members />
+          <d5p1:Name>Boolean</d5p1:Name>
+          <d5p1:Namespace>System</d5p1:Namespace>
+        </d3p1:HintType>
+        <d3p1:HintTypeIsList>false</d3p1:HintTypeIsList>
+        <d3p1:Value i:nil="true" />
+      </d3p1:VisibleBinding>
+      <d3p1:Alignment>Left</d3p1:Alignment>
+      <d3p1:Format>Standard</d3p1:Format>
+      <d3p1:Label i:nil="true" />
+      <d3p1:Style>Text</d3p1:Style>
+      <d3p1:Text z:Id="i25">
+        <d3p1:Parent z:Ref="i23" />
+        <d3p1:SelectedLanguage i:nil="true" />
+        <d3p1:_values />
+      </d3p1:Text>
+    </d2p1:CardTypeLabel>
+  </CardHeader>
+  <CardType>General</CardType>
+  <CloudAppDescription></CloudAppDescription>
+  <CloudAppKeyFeatures i:nil="true" />
+  <CloudAppLicenceFileAssetPath i:nil="true" />
+  <CloudAppMessageType></CloudAppMessageType>
+  <CloudAppName>HackathonMicroApp</CloudAppName>
+  <CloudAppRequirements i:nil="true" />
+  <CloudAppSmallImageAssetPath i:nil="true" />
+  <CloudAppVersion>1.0</CloudAppVersion>
+  <Configurations>
+    <EntityConfiguration>
+      <Name>Debug</Name>
+    </EntityConfiguration>
+    <EntityConfiguration>
+      <Name>Release</Name>
+    </EntityConfiguration>
+  </Configurations>
+  <Connection xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:Name>Half</d2p1:Name>
+    <d2p1:Url>https://half.sitrion.com</d2p1:Url>
+  </Connection>
+  <EntitySubType i:nil="true" />
+  <EntityType i:nil="true" />
+  <HasInitFunction>false</HasInitFunction>
+  <IsCardDismissable>true</IsCardDismissable>
+  <IsOfflineModeSupported>true</IsOfflineModeSupported>
+  <IsSocialCard>false</IsSocialCard>
+  <Languages xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:Language z:Id="i26" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code></d2p1:Code>
+      <d2p1:IsEnabled>true</d2p1:IsEnabled>
+      <d2p1:Name>Default/English</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i27" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>en</d2p1:Code>
+      <d2p1:IsEnabled>true</d2p1:IsEnabled>
+      <d2p1:Name>English</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i28" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>de</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>German</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i29" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>fr</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>French</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i30" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>es</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Spanish</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i31" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>pt</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Portuguese</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i32" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>ru</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Russian</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i33" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>tr</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Turkish</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i34" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>da</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Danish</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i35" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>ar</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Arabic</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i36" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>nl</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Dutch</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i37" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>it</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Italian</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i38" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>sv</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Swedish</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i39" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>nn</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Norwegian</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i40" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>cs</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Czech</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i41" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>pl</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Polish</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i42" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>ja</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Japanese</d2p1:Name>
+    </d2p1:Language>
+    <d2p1:Language z:Id="i43" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <d2p1:Code>zh</d2p1:Code>
+      <d2p1:IsEnabled>false</d2p1:IsEnabled>
+      <d2p1:Name>Chinese</d2p1:Name>
+    </d2p1:Language>
+  </Languages>
+  <Name>HackathonMicroApp</Name>
+  <Namespace i:nil="true" />
+  <RefreshCardStreamOnExit>false</RefreshCardStreamOnExit>
+  <SampleFiles xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <SchedulePerRole>false</SchedulePerRole>
+  <SchedulePerUser>false</SchedulePerUser>
+  <Screens xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:CloudScreen>
+      <d2p1:AppBarFields xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" />
+      <d2p1:ContentFields xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls">
+        <d4p1:ControlBase z:Id="i44" i:type="d4p1:SectionControl" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+          <d4p1:ID>db5df71e-b2fe-43dc-ae63-e52007e53a1c</d4p1:ID>
+          <d4p1:Name>Section1</d4p1:Name>
+          <d4p1:ParentContainer i:nil="true" />
+          <d4p1:VisibleBinding z:Id="i45">
+            <d4p1:Parent z:Ref="i44" />
+            <d4p1:ComplexHintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+            <d4p1:HintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+              <d7p1:ElementType i:nil="true" />
+              <d7p1:FullTypeName>System.Boolean</d7p1:FullTypeName>
+              <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+              <d7p1:Members />
+              <d7p1:Name>Boolean</d7p1:Name>
+              <d7p1:Namespace>System</d7p1:Namespace>
+            </d4p1:HintType>
+            <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+            <d4p1:Value i:nil="true" />
+          </d4p1:VisibleBinding>
+          <d4p1:Children>
+            <d4p1:ControlBase z:Id="i46" i:type="d4p1:TextBoxControl">
+              <d4p1:ID>a25533f0-df71-4ac6-8e64-7c43964175dd</d4p1:ID>
+              <d4p1:Name>Text</d4p1:Name>
+              <d4p1:ParentContainer z:Ref="i44" />
+              <d4p1:VisibleBinding z:Id="i47">
+                <d4p1:Parent z:Ref="i46" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                  <d9p1:ElementType i:nil="true" />
+                  <d9p1:FullTypeName>System.Boolean</d9p1:FullTypeName>
+                  <d9p1:ListDictionaryType>None</d9p1:ListDictionaryType>
+                  <d9p1:Members />
+                  <d9p1:Name>Boolean</d9p1:Name>
+                  <d9p1:Namespace>System</d9p1:Namespace>
+                </d4p1:HintType>
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:VisibleBinding>
+              <d4p1:Alignment>Left</d4p1:Alignment>
+              <d4p1:AccessibilityText z:Id="i48">
+                <d4p1:Parent z:Ref="i46" />
+                <d4p1:SelectedLanguage i:nil="true" />
+                <d4p1:_values />
+              </d4p1:AccessibilityText>
+              <d4p1:Height>1</d4p1:Height>
+              <d4p1:IsPassword>false</d4p1:IsPassword>
+              <d4p1:KeyboardType>Normal</d4p1:KeyboardType>
+              <d4p1:Label i:nil="true" />
+              <d4p1:Value z:Id="i49">
+                <d4p1:Parent z:Ref="i46" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value>{ZipCode}</d4p1:Value>
+              </d4p1:Value>
+              <d4p1:WatermarkText z:Id="i50">
+                <d4p1:Parent z:Ref="i46" />
+                <d4p1:SelectedLanguage i:nil="true" />
+                <d4p1:_values />
+              </d4p1:WatermarkText>
+            </d4p1:ControlBase>
+            <d4p1:ControlBase z:Id="i51" i:type="d4p1:ButtonControl">
+              <d4p1:ID>f7a670ed-f63e-4c25-a3d7-cbf3ee3313a8</d4p1:ID>
+              <d4p1:Name>ActionButton</d4p1:Name>
+              <d4p1:ParentContainer z:Ref="i44" />
+              <d4p1:VisibleBinding z:Id="i52">
+                <d4p1:Parent z:Ref="i51" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                  <d9p1:ElementType i:nil="true" />
+                  <d9p1:FullTypeName>System.Boolean</d9p1:FullTypeName>
+                  <d9p1:ListDictionaryType>None</d9p1:ListDictionaryType>
+                  <d9p1:Members />
+                  <d9p1:Name>Boolean</d9p1:Name>
+                  <d9p1:Namespace>System</d9p1:Namespace>
+                </d4p1:HintType>
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:VisibleBinding>
+              <d4p1:Alignment>Center</d4p1:Alignment>
+              <d4p1:ButtonPreset>Default</d4p1:ButtonPreset>
+              <d4p1:Icon z:Id="i53">
+                <d4p1:ID>b62b4d77-6b76-43e1-8f78-054d34dfb071</d4p1:ID>
+                <d4p1:Name i:nil="true" />
+                <d4p1:ParentContainer i:nil="true" />
+                <d4p1:VisibleBinding z:Id="i54">
+                  <d4p1:Parent z:Ref="i53" />
+                  <d4p1:ComplexHintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                  <d4p1:HintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                    <d10p1:ElementType i:nil="true" />
+                    <d10p1:FullTypeName>System.Boolean</d10p1:FullTypeName>
+                    <d10p1:ListDictionaryType>None</d10p1:ListDictionaryType>
+                    <d10p1:Members />
+                    <d10p1:Name>Boolean</d10p1:Name>
+                    <d10p1:Namespace>System</d10p1:Namespace>
+                  </d4p1:HintType>
+                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                  <d4p1:Value i:nil="true" />
+                </d4p1:VisibleBinding>
+                <d4p1:Alignment>Left</d4p1:Alignment>
+                <d4p1:BindableEstimatedHeight z:Id="i55">
+                  <d4p1:Parent z:Ref="i53" />
+                  <d4p1:ComplexHintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                  <d4p1:HintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                    <d10p1:ElementType i:nil="true" />
+                    <d10p1:FullTypeName>System.Int32</d10p1:FullTypeName>
+                    <d10p1:ListDictionaryType>None</d10p1:ListDictionaryType>
+                    <d10p1:Members />
+                    <d10p1:Name>Int32</d10p1:Name>
+                    <d10p1:Namespace>System</d10p1:Namespace>
+                  </d4p1:HintType>
+                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                  <d4p1:Value i:nil="true" />
+                </d4p1:BindableEstimatedHeight>
+                <d4p1:BindableEstimatedWidth z:Id="i56">
+                  <d4p1:Parent z:Ref="i53" />
+                  <d4p1:ComplexHintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                  <d4p1:HintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                    <d10p1:ElementType i:nil="true" />
+                    <d10p1:FullTypeName>System.Int32</d10p1:FullTypeName>
+                    <d10p1:ListDictionaryType>None</d10p1:ListDictionaryType>
+                    <d10p1:Members />
+                    <d10p1:Name>Int32</d10p1:Name>
+                    <d10p1:Namespace>System</d10p1:Namespace>
+                  </d4p1:HintType>
+                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                  <d4p1:Value i:nil="true" />
+                </d4p1:BindableEstimatedWidth>
+                <d4p1:Image z:Id="i57">
+                  <d4p1:Parent z:Ref="i53" />
+                  <d4p1:ApplyTheme>false</d4p1:ApplyTheme>
+                  <d4p1:DataBinding z:Id="i58">
+                    <d4p1:Parent z:Ref="i53" />
+                    <d4p1:SelectedLanguage i:nil="true" />
+                    <d4p1:_values />
+                  </d4p1:DataBinding>
+                  <d4p1:EstimatedHeight i:nil="true" />
+                  <d4p1:EstimatedWidth i:nil="true" />
+                  <d4p1:ImageType>Custom</d4p1:ImageType>
+                  <d4p1:StoreOnDevice>false</d4p1:StoreOnDevice>
+                </d4p1:Image>
+                <d4p1:ImagePreset>Icon</d4p1:ImagePreset>
+                <d4p1:IsProxied>false</d4p1:IsProxied>
+                <d4p1:IsTappable z:Id="i59">
+                  <d4p1:Parent z:Ref="i53" />
+                  <d4p1:ComplexHintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                  <d4p1:HintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                    <d10p1:ElementType i:nil="true" />
+                    <d10p1:FullTypeName>System.Boolean</d10p1:FullTypeName>
+                    <d10p1:ListDictionaryType>None</d10p1:ListDictionaryType>
+                    <d10p1:Members />
+                    <d10p1:Name>Boolean</d10p1:Name>
+                    <d10p1:Namespace>System</d10p1:Namespace>
+                  </d4p1:HintType>
+                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                  <d4p1:Value i:nil="true" />
+                </d4p1:IsTappable>
+              </d4p1:Icon>
+              <d4p1:Style z:Id="i60">
+                <d4p1:Parent z:Ref="i51" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:Style>
+              <d4p1:Text z:Id="i61">
+                <d4p1:Parent z:Ref="i51" />
+                <d4p1:SelectedLanguage i:nil="true" />
+                <d4p1:_values />
+              </d4p1:Text>
+              <d4p1:Action>GetAppointmentData</d4p1:Action>
+            </d4p1:ControlBase>
+            <d4p1:ControlBase z:Id="i62" i:type="d4p1:SimpleListControl">
+              <d4p1:ID>f4806dd3-9304-432b-a29c-7ce532bc1bd8</d4p1:ID>
+              <d4p1:Name>SimpleList1</d4p1:Name>
+              <d4p1:ParentContainer z:Ref="i44" />
+              <d4p1:VisibleBinding z:Id="i63">
+                <d4p1:Parent z:Ref="i62" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                  <d9p1:ElementType i:nil="true" />
+                  <d9p1:FullTypeName>System.Boolean</d9p1:FullTypeName>
+                  <d9p1:ListDictionaryType>None</d9p1:ListDictionaryType>
+                  <d9p1:Members />
+                  <d9p1:Name>Boolean</d9p1:Name>
+                  <d9p1:Namespace>System</d9p1:Namespace>
+                </d4p1:HintType>
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:VisibleBinding>
+              <d4p1:DataTemplate z:Id="i64">
+                <d4p1:ID>d7de2f4c-8928-4f7d-acef-943d1d9a5301</d4p1:ID>
+                <d4p1:Name>Template1</d4p1:Name>
+                <d4p1:ParentContainer i:nil="true" />
+                <d4p1:VisibleBinding z:Id="i65">
+                  <d4p1:Parent z:Ref="i64" />
+                  <d4p1:ComplexHintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                  <d4p1:HintType xmlns:d10p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                    <d10p1:ElementType i:nil="true" />
+                    <d10p1:FullTypeName>System.Boolean</d10p1:FullTypeName>
+                    <d10p1:ListDictionaryType>None</d10p1:ListDictionaryType>
+                    <d10p1:Members />
+                    <d10p1:Name>Boolean</d10p1:Name>
+                    <d10p1:Namespace>System</d10p1:Namespace>
+                  </d4p1:HintType>
+                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                  <d4p1:Value i:nil="true" />
+                </d4p1:VisibleBinding>
+                <d4p1:Children>
+                  <d4p1:ControlBase z:Id="i66" i:type="d4p1:LayoutContainerControl">
+                    <d4p1:ID>515a9ba9-c3dd-419b-bde0-068c3cde3835</d4p1:ID>
+                    <d4p1:Name>LayoutContainer</d4p1:Name>
+                    <d4p1:ParentContainer z:Ref="i64" />
+                    <d4p1:VisibleBinding z:Id="i67">
+                      <d4p1:Parent z:Ref="i66" />
+                      <d4p1:ComplexHintType xmlns:d12p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                      <d4p1:HintType xmlns:d12p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                        <d12p1:ElementType i:nil="true" />
+                        <d12p1:FullTypeName>System.Boolean</d12p1:FullTypeName>
+                        <d12p1:ListDictionaryType>None</d12p1:ListDictionaryType>
+                        <d12p1:Members />
+                        <d12p1:Name>Boolean</d12p1:Name>
+                        <d12p1:Namespace>System</d12p1:Namespace>
+                      </d4p1:HintType>
+                      <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                      <d4p1:Value i:nil="true" />
+                    </d4p1:VisibleBinding>
+                    <d4p1:Rows>
+                      <d4p1:LayoutRowControl z:Id="i68">
+                        <d4p1:ID>4e2d7810-8f0a-4dfa-a12b-ee2ed2c00b90</d4p1:ID>
+                        <d4p1:Name>LayoutRow</d4p1:Name>
+                        <d4p1:ParentContainer z:Ref="i64" />
+                        <d4p1:VisibleBinding z:Id="i69">
+                          <d4p1:Parent z:Ref="i68" />
+                          <d4p1:ComplexHintType xmlns:d14p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                          <d4p1:HintType xmlns:d14p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                            <d14p1:ElementType i:nil="true" />
+                            <d14p1:FullTypeName>System.Boolean</d14p1:FullTypeName>
+                            <d14p1:ListDictionaryType>None</d14p1:ListDictionaryType>
+                            <d14p1:Members />
+                            <d14p1:Name>Boolean</d14p1:Name>
+                            <d14p1:Namespace>System</d14p1:Namespace>
+                          </d4p1:HintType>
+                          <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                          <d4p1:Value i:nil="true" />
+                        </d4p1:VisibleBinding>
+                        <d4p1:Cells>
+                          <d4p1:LayoutCellControl z:Id="i70">
+                            <d4p1:ID>f1c25b0b-65ea-416d-90be-372de2532103</d4p1:ID>
+                            <d4p1:Name>LayoutCell1</d4p1:Name>
+                            <d4p1:ParentContainer z:Ref="i64" />
+                            <d4p1:VisibleBinding z:Id="i71">
+                              <d4p1:Parent z:Ref="i70" />
+                              <d4p1:ComplexHintType xmlns:d16p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                              <d4p1:HintType xmlns:d16p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                                <d16p1:ElementType i:nil="true" />
+                                <d16p1:FullTypeName>System.Boolean</d16p1:FullTypeName>
+                                <d16p1:ListDictionaryType>None</d16p1:ListDictionaryType>
+                                <d16p1:Members />
+                                <d16p1:Name>Boolean</d16p1:Name>
+                                <d16p1:Namespace>System</d16p1:Namespace>
+                              </d4p1:HintType>
+                              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                              <d4p1:Value i:nil="true" />
+                            </d4p1:VisibleBinding>
+                            <d4p1:Children>
+                              <d4p1:ControlBase z:Id="i72" i:type="d4p1:LabelControl">
+                                <d4p1:ID>f9afa73d-5c56-411d-a29b-c59a9a814880</d4p1:ID>
+                                <d4p1:Name>Label</d4p1:Name>
+                                <d4p1:ParentContainer z:Ref="i70" />
+                                <d4p1:VisibleBinding z:Id="i73">
+                                  <d4p1:Parent z:Ref="i72" />
+                                  <d4p1:ComplexHintType xmlns:d18p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                                  <d4p1:HintType xmlns:d18p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                                    <d18p1:ElementType i:nil="true" />
+                                    <d18p1:FullTypeName>System.Boolean</d18p1:FullTypeName>
+                                    <d18p1:ListDictionaryType>None</d18p1:ListDictionaryType>
+                                    <d18p1:Members />
+                                    <d18p1:Name>Boolean</d18p1:Name>
+                                    <d18p1:Namespace>System</d18p1:Namespace>
+                                  </d4p1:HintType>
+                                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                                  <d4p1:Value i:nil="true" />
+                                </d4p1:VisibleBinding>
+                                <d4p1:Alignment>Left</d4p1:Alignment>
+                                <d4p1:Format>Standard</d4p1:Format>
+                                <d4p1:Label i:nil="true" />
+                                <d4p1:Style>Text</d4p1:Style>
+                                <d4p1:Text z:Id="i74">
+                                  <d4p1:Parent z:Ref="i72" />
+                                  <d4p1:SelectedLanguage i:nil="true" />
+                                  <d4p1:_values />
+                                </d4p1:Text>
+                              </d4p1:ControlBase>
+                            </d4p1:Children>
+                            <d4p1:Parent z:Ref="i68" />
+                            <d4p1:Ratio>1</d4p1:Ratio>
+                            <d4p1:VerticalAlignment>Top</d4p1:VerticalAlignment>
+                          </d4p1:LayoutCellControl>
+                          <d4p1:LayoutCellControl z:Id="i75">
+                            <d4p1:ID>b18b0628-b91f-43e9-82cc-f0de97ee3ee6</d4p1:ID>
+                            <d4p1:Name>LayoutCell1</d4p1:Name>
+                            <d4p1:ParentContainer z:Ref="i64" />
+                            <d4p1:VisibleBinding z:Id="i76">
+                              <d4p1:Parent z:Ref="i75" />
+                              <d4p1:ComplexHintType xmlns:d16p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                              <d4p1:HintType xmlns:d16p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                                <d16p1:ElementType i:nil="true" />
+                                <d16p1:FullTypeName>System.Boolean</d16p1:FullTypeName>
+                                <d16p1:ListDictionaryType>None</d16p1:ListDictionaryType>
+                                <d16p1:Members />
+                                <d16p1:Name>Boolean</d16p1:Name>
+                                <d16p1:Namespace>System</d16p1:Namespace>
+                              </d4p1:HintType>
+                              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                              <d4p1:Value i:nil="true" />
+                            </d4p1:VisibleBinding>
+                            <d4p1:Children>
+                              <d4p1:ControlBase z:Id="i77" i:type="d4p1:LabelControl">
+                                <d4p1:ID>74b6d69c-b5ae-4c47-a569-bf1dd1c21ab3</d4p1:ID>
+                                <d4p1:Name>Label</d4p1:Name>
+                                <d4p1:ParentContainer z:Ref="i75" />
+                                <d4p1:VisibleBinding z:Id="i78">
+                                  <d4p1:Parent z:Ref="i77" />
+                                  <d4p1:ComplexHintType xmlns:d18p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                                  <d4p1:HintType xmlns:d18p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                                    <d18p1:ElementType i:nil="true" />
+                                    <d18p1:FullTypeName>System.Boolean</d18p1:FullTypeName>
+                                    <d18p1:ListDictionaryType>None</d18p1:ListDictionaryType>
+                                    <d18p1:Members />
+                                    <d18p1:Name>Boolean</d18p1:Name>
+                                    <d18p1:Namespace>System</d18p1:Namespace>
+                                  </d4p1:HintType>
+                                  <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                                  <d4p1:Value i:nil="true" />
+                                </d4p1:VisibleBinding>
+                                <d4p1:Alignment>Left</d4p1:Alignment>
+                                <d4p1:Format>Standard</d4p1:Format>
+                                <d4p1:Label i:nil="true" />
+                                <d4p1:Style>Text</d4p1:Style>
+                                <d4p1:Text z:Id="i79">
+                                  <d4p1:Parent z:Ref="i77" />
+                                  <d4p1:SelectedLanguage i:nil="true" />
+                                  <d4p1:_values />
+                                </d4p1:Text>
+                              </d4p1:ControlBase>
+                            </d4p1:Children>
+                            <d4p1:Parent z:Ref="i68" />
+                            <d4p1:Ratio>1</d4p1:Ratio>
+                            <d4p1:VerticalAlignment>Top</d4p1:VerticalAlignment>
+                          </d4p1:LayoutCellControl>
+                        </d4p1:Cells>
+                        <d4p1:Parent z:Ref="i66" />
+                      </d4p1:LayoutRowControl>
+                    </d4p1:Rows>
+                  </d4p1:ControlBase>
+                </d4p1:Children>
+                <d4p1:ParentList z:Ref="i62" />
+              </d4p1:DataTemplate>
+              <d4p1:EmptyText z:Id="i80">
+                <d4p1:Parent z:Ref="i62" />
+                <d4p1:SelectedLanguage i:nil="true" />
+                <d4p1:_values />
+              </d4p1:EmptyText>
+              <d4p1:ItemsSource z:Id="i81">
+                <d4p1:Parent z:Ref="i62" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintTypeIsList>true</d4p1:HintTypeIsList>
+                <d4p1:Value>{GetAppointmentData.records}</d4p1:Value>
+              </d4p1:ItemsSource>
+              <d4p1:SelectedItem z:Id="i82">
+                <d4p1:Parent z:Ref="i62" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:SelectedItem>
+            </d4p1:ControlBase>
+          </d4p1:Children>
+          <d4p1:Label z:Id="i83">
+            <d4p1:Parent z:Ref="i44" />
+            <d4p1:SelectedLanguage i:nil="true" />
+            <d4p1:_values />
+          </d4p1:Label>
+        </d4p1:ControlBase>
+      </d2p1:ContentFields>
+      <d2p1:Footer xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" z:Id="i84" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+        <d4p1:ID>46782ad1-ac12-4caa-988d-abc62ef4eae3</d4p1:ID>
+        <d4p1:Name i:nil="true" />
+        <d4p1:ParentContainer i:nil="true" />
+        <d4p1:VisibleBinding z:Id="i85">
+          <d4p1:Parent z:Ref="i84" />
+          <d4p1:ComplexHintType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+          <d4p1:HintType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:ElementType i:nil="true" />
+            <d6p1:FullTypeName>System.Boolean</d6p1:FullTypeName>
+            <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+            <d6p1:Members />
+            <d6p1:Name>Boolean</d6p1:Name>
+            <d6p1:Namespace>System</d6p1:Namespace>
+          </d4p1:HintType>
+          <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+          <d4p1:Value i:nil="true" />
+        </d4p1:VisibleBinding>
+        <d4p1:Layout z:Id="i86">
+          <d4p1:ID>b6ba1fb3-0543-4214-89c4-58c3e332b6ef</d4p1:ID>
+          <d4p1:Name>LayoutContainer</d4p1:Name>
+          <d4p1:ParentContainer i:nil="true" />
+          <d4p1:VisibleBinding z:Id="i87">
+            <d4p1:Parent z:Ref="i86" />
+            <d4p1:ComplexHintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+            <d4p1:HintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+              <d7p1:ElementType i:nil="true" />
+              <d7p1:FullTypeName>System.Boolean</d7p1:FullTypeName>
+              <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+              <d7p1:Members />
+              <d7p1:Name>Boolean</d7p1:Name>
+              <d7p1:Namespace>System</d7p1:Namespace>
+            </d4p1:HintType>
+            <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+            <d4p1:Value i:nil="true" />
+          </d4p1:VisibleBinding>
+          <d4p1:Rows>
+            <d4p1:LayoutRowControl z:Id="i88">
+              <d4p1:ID>3b5c37c4-7404-46cc-84b0-c8733a6f9b19</d4p1:ID>
+              <d4p1:Name>LayoutRow</d4p1:Name>
+              <d4p1:ParentContainer i:nil="true" />
+              <d4p1:VisibleBinding z:Id="i89">
+                <d4p1:Parent z:Ref="i88" />
+                <d4p1:ComplexHintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                <d4p1:HintType xmlns:d9p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                  <d9p1:ElementType i:nil="true" />
+                  <d9p1:FullTypeName>System.Boolean</d9p1:FullTypeName>
+                  <d9p1:ListDictionaryType>None</d9p1:ListDictionaryType>
+                  <d9p1:Members />
+                  <d9p1:Name>Boolean</d9p1:Name>
+                  <d9p1:Namespace>System</d9p1:Namespace>
+                </d4p1:HintType>
+                <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                <d4p1:Value i:nil="true" />
+              </d4p1:VisibleBinding>
+              <d4p1:Cells>
+                <d4p1:LayoutCellControl z:Id="i90">
+                  <d4p1:ID>bbac6d20-b9c7-4897-8240-f2c1cc567a27</d4p1:ID>
+                  <d4p1:Name>LayoutCell1</d4p1:Name>
+                  <d4p1:ParentContainer i:nil="true" />
+                  <d4p1:VisibleBinding z:Id="i91">
+                    <d4p1:Parent z:Ref="i90" />
+                    <d4p1:ComplexHintType xmlns:d11p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                    <d4p1:HintType xmlns:d11p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                      <d11p1:ElementType i:nil="true" />
+                      <d11p1:FullTypeName>System.Boolean</d11p1:FullTypeName>
+                      <d11p1:ListDictionaryType>None</d11p1:ListDictionaryType>
+                      <d11p1:Members />
+                      <d11p1:Name>Boolean</d11p1:Name>
+                      <d11p1:Namespace>System</d11p1:Namespace>
+                    </d4p1:HintType>
+                    <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                    <d4p1:Value i:nil="true" />
+                  </d4p1:VisibleBinding>
+                  <d4p1:Children />
+                  <d4p1:Parent z:Ref="i88" />
+                  <d4p1:Ratio>1</d4p1:Ratio>
+                  <d4p1:VerticalAlignment>Top</d4p1:VerticalAlignment>
+                </d4p1:LayoutCellControl>
+                <d4p1:LayoutCellControl z:Id="i92">
+                  <d4p1:ID>c0826c08-f133-4ade-b8fb-e9dd5f495362</d4p1:ID>
+                  <d4p1:Name>LayoutCell1</d4p1:Name>
+                  <d4p1:ParentContainer i:nil="true" />
+                  <d4p1:VisibleBinding z:Id="i93">
+                    <d4p1:Parent z:Ref="i92" />
+                    <d4p1:ComplexHintType xmlns:d11p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+                    <d4p1:HintType xmlns:d11p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                      <d11p1:ElementType i:nil="true" />
+                      <d11p1:FullTypeName>System.Boolean</d11p1:FullTypeName>
+                      <d11p1:ListDictionaryType>None</d11p1:ListDictionaryType>
+                      <d11p1:Members />
+                      <d11p1:Name>Boolean</d11p1:Name>
+                      <d11p1:Namespace>System</d11p1:Namespace>
+                    </d4p1:HintType>
+                    <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+                    <d4p1:Value i:nil="true" />
+                  </d4p1:VisibleBinding>
+                  <d4p1:Children />
+                  <d4p1:Parent z:Ref="i88" />
+                  <d4p1:Ratio>1</d4p1:Ratio>
+                  <d4p1:VerticalAlignment>Top</d4p1:VerticalAlignment>
+                </d4p1:LayoutCellControl>
+              </d4p1:Cells>
+              <d4p1:Parent z:Ref="i86" />
+            </d4p1:LayoutRowControl>
+          </d4p1:Rows>
+        </d4p1:Layout>
+      </d2p1:Footer>
+      <d2p1:Header xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" z:Id="i94" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+        <d4p1:ID>13f4d321-300a-4963-8678-88537247ffc4</d4p1:ID>
+        <d4p1:Name i:nil="true" />
+        <d4p1:ParentContainer i:nil="true" />
+        <d4p1:VisibleBinding z:Id="i95">
+          <d4p1:Parent z:Ref="i94" />
+          <d4p1:ComplexHintType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+          <d4p1:HintType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:ElementType i:nil="true" />
+            <d6p1:FullTypeName>System.Boolean</d6p1:FullTypeName>
+            <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+            <d6p1:Members />
+            <d6p1:Name>Boolean</d6p1:Name>
+            <d6p1:Namespace>System</d6p1:Namespace>
+          </d4p1:HintType>
+          <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+          <d4p1:Value i:nil="true" />
+        </d4p1:VisibleBinding>
+        <d4p1:AppBarVisible>false</d4p1:AppBarVisible>
+        <d4p1:FooterActions />
+        <d4p1:RightButton z:Id="i96" i:type="d4p1:ActionListControl">
+          <d4p1:ID>d4aea3ca-46c7-45cd-b22e-48b417b7dc83</d4p1:ID>
+          <d4p1:Name>ActionList</d4p1:Name>
+          <d4p1:ParentContainer i:nil="true" />
+          <d4p1:VisibleBinding z:Id="i97">
+            <d4p1:Parent z:Ref="i96" />
+            <d4p1:ComplexHintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+            <d4p1:HintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+              <d7p1:ElementType i:nil="true" />
+              <d7p1:FullTypeName>System.Boolean</d7p1:FullTypeName>
+              <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+              <d7p1:Members />
+              <d7p1:Name>Boolean</d7p1:Name>
+              <d7p1:Namespace>System</d7p1:Namespace>
+            </d4p1:HintType>
+            <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+            <d4p1:Value i:nil="true" />
+          </d4p1:VisibleBinding>
+          <d4p1:Alignment>Center</d4p1:Alignment>
+          <d4p1:ButtonPreset>Default</d4p1:ButtonPreset>
+          <d4p1:Icon z:Id="i98">
+            <d4p1:ID>860347dd-7b06-41dd-8a1e-d615a3d28d09</d4p1:ID>
+            <d4p1:Name i:nil="true" />
+            <d4p1:ParentContainer i:nil="true" />
+            <d4p1:VisibleBinding z:Id="i99">
+              <d4p1:Parent z:Ref="i98" />
+              <d4p1:ComplexHintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+              <d4p1:HintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.Boolean</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>Boolean</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d4p1:HintType>
+              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+              <d4p1:Value i:nil="true" />
+            </d4p1:VisibleBinding>
+            <d4p1:Alignment>Left</d4p1:Alignment>
+            <d4p1:BindableEstimatedHeight z:Id="i100">
+              <d4p1:Parent z:Ref="i98" />
+              <d4p1:ComplexHintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+              <d4p1:HintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.Int32</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>Int32</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d4p1:HintType>
+              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+              <d4p1:Value i:nil="true" />
+            </d4p1:BindableEstimatedHeight>
+            <d4p1:BindableEstimatedWidth z:Id="i101">
+              <d4p1:Parent z:Ref="i98" />
+              <d4p1:ComplexHintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+              <d4p1:HintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.Int32</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>Int32</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d4p1:HintType>
+              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+              <d4p1:Value i:nil="true" />
+            </d4p1:BindableEstimatedWidth>
+            <d4p1:Image z:Id="i102">
+              <d4p1:Parent z:Ref="i98" />
+              <d4p1:ApplyTheme>false</d4p1:ApplyTheme>
+              <d4p1:DataBinding z:Id="i103">
+                <d4p1:Parent z:Ref="i98" />
+                <d4p1:SelectedLanguage i:nil="true" />
+                <d4p1:_values />
+              </d4p1:DataBinding>
+              <d4p1:EstimatedHeight i:nil="true" />
+              <d4p1:EstimatedWidth i:nil="true" />
+              <d4p1:ImageType>Question2</d4p1:ImageType>
+              <d4p1:StoreOnDevice>false</d4p1:StoreOnDevice>
+            </d4p1:Image>
+            <d4p1:ImagePreset>Icon</d4p1:ImagePreset>
+            <d4p1:IsProxied>false</d4p1:IsProxied>
+            <d4p1:IsTappable z:Id="i104">
+              <d4p1:Parent z:Ref="i98" />
+              <d4p1:ComplexHintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+              <d4p1:HintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.Boolean</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>Boolean</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d4p1:HintType>
+              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+              <d4p1:Value i:nil="true" />
+            </d4p1:IsTappable>
+          </d4p1:Icon>
+          <d4p1:Style z:Id="i105">
+            <d4p1:Parent z:Ref="i96" />
+            <d4p1:ComplexHintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+            <d4p1:HintType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+            <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+            <d4p1:Value i:nil="true" />
+          </d4p1:Style>
+          <d4p1:Text z:Id="i106">
+            <d4p1:Parent z:Ref="i96" />
+            <d4p1:SelectedLanguage i:nil="true" />
+            <d4p1:_values />
+          </d4p1:Text>
+          <d4p1:Actions />
+          <d4p1:ContinueOnFailure>false</d4p1:ContinueOnFailure>
+        </d4p1:RightButton>
+        <d4p1:Title z:Id="i107">
+          <d4p1:Parent z:Id="i108" i:type="d4p1:LabelControl">
+            <d4p1:ID>30cba3be-d4dc-4abf-838f-0cf0f94f7f9a</d4p1:ID>
+            <d4p1:Name i:nil="true" />
+            <d4p1:ParentContainer i:nil="true" />
+            <d4p1:VisibleBinding z:Id="i109">
+              <d4p1:Parent z:Ref="i108" />
+              <d4p1:ComplexHintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+              <d4p1:HintType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.Boolean</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>Boolean</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d4p1:HintType>
+              <d4p1:HintTypeIsList>false</d4p1:HintTypeIsList>
+              <d4p1:Value i:nil="true" />
+            </d4p1:VisibleBinding>
+            <d4p1:Alignment>Left</d4p1:Alignment>
+            <d4p1:Format>Standard</d4p1:Format>
+            <d4p1:Label i:nil="true" />
+            <d4p1:Style>Text</d4p1:Style>
+            <d4p1:Text z:Id="i110">
+              <d4p1:Parent z:Ref="i108" />
+              <d4p1:SelectedLanguage i:nil="true" />
+              <d4p1:_values />
+            </d4p1:Text>
+          </d4p1:Parent>
+          <d4p1:SelectedLanguage i:nil="true" />
+          <d4p1:_values />
+        </d4p1:Title>
+      </d2p1:Header>
+      <d2p1:InitialAction xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" i:nil="true" />
+      <d2p1:IsStartScreen>false</d2p1:IsStartScreen>
+      <d2p1:Layout>PhoneNormal</d2p1:Layout>
+      <d2p1:Name>Screen1</d2p1:Name>
+      <d2p1:RefreshAction xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" i:nil="true" />
+      <d2p1:SearchBox xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model.Controls" i:nil="true" />
+      <d2p1:ViewModelName>HackathonMicroAppViewModel</d2p1:ViewModelName>
+    </d2p1:CloudScreen>
+  </Screens>
+  <Services xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:CloudService>
+      <d2p1:AspNetCompatibilityRequirementsAttribute>
+        <d2p1:_isEnabled>true</d2p1:_isEnabled>
+        <d2p1:_x003C_RequirementsMode_x003E_k__BackingField>Allowed</d2p1:_x003C_RequirementsMode_x003E_k__BackingField>
+      </d2p1:AspNetCompatibilityRequirementsAttribute>
+      <d2p1:AssociatedFile>Generated\Appointments_Service.cs</d2p1:AssociatedFile>
+      <d2p1:AssociatedSystem>REST WebServices</d2p1:AssociatedSystem>
+      <d2p1:CodeFirst>false</d2p1:CodeFirst>
+      <d2p1:DoInit>true</d2p1:DoInit>
+      <d2p1:Methods>
+        <d2p1:CloudMethod>
+          <d2p1:Name>GetAppointmentData</d2p1:Name>
+          <d2p1:Parameters xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:Parameter>
+              <d6p1:Direction>In</d6p1:Direction>
+              <d6p1:Name>ZipCode</d6p1:Name>
+              <d6p1:Type>
+                <d6p1:ElementType i:nil="true" />
+                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                <d6p1:Members />
+                <d6p1:Name>String</d6p1:Name>
+                <d6p1:Namespace>System</d6p1:Namespace>
+              </d6p1:Type>
+            </d6p1:Parameter>
+          </d2p1:Parameters>
+          <d2p1:ReturnType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:ElementType i:nil="true" />
+            <d6p1:FullTypeName>HackathonMicroApp.Service.DataTypes.AppointmentData</d6p1:FullTypeName>
+            <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+            <d6p1:Members>
+              <d6p1:DataTypeMember>
+                <d6p1:CanRead>true</d6p1:CanRead>
+                <d6p1:CanWrite>true</d6p1:CanWrite>
+                <d6p1:DataType>
+                  <d6p1:ElementType>
+                    <d6p1:ElementType i:nil="true" />
+                    <d6p1:FullTypeName>HackathonMicroApp.Service.DataTypes.RecordList</d6p1:FullTypeName>
+                    <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                    <d6p1:Members>
+                      <d6p1:DataTypeMember>
+                        <d6p1:CanRead>true</d6p1:CanRead>
+                        <d6p1:CanWrite>true</d6p1:CanWrite>
+                        <d6p1:DataType>
+                          <d6p1:ElementType i:nil="true" />
+                          <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                          <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                          <d6p1:Members />
+                          <d6p1:Name>String</d6p1:Name>
+                          <d6p1:Namespace>System</d6p1:Namespace>
+                        </d6p1:DataType>
+                        <d6p1:Name>id</d6p1:Name>
+                      </d6p1:DataTypeMember>
+                      <d6p1:DataTypeMember>
+                        <d6p1:CanRead>true</d6p1:CanRead>
+                        <d6p1:CanWrite>true</d6p1:CanWrite>
+                        <d6p1:DataType>
+                          <d6p1:ElementType i:nil="true" />
+                          <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                          <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                          <d6p1:Members />
+                          <d6p1:Name>String</d6p1:Name>
+                          <d6p1:Namespace>System</d6p1:Namespace>
+                        </d6p1:DataType>
+                        <d6p1:Name>createdTime</d6p1:Name>
+                      </d6p1:DataTypeMember>
+                      <d6p1:DataTypeMember>
+                        <d6p1:CanRead>true</d6p1:CanRead>
+                        <d6p1:CanWrite>true</d6p1:CanWrite>
+                        <d6p1:DataType>
+                          <d6p1:ElementType i:nil="true" />
+                          <d6p1:FullTypeName>HackathonMicroApp.Service.DataTypes.FieldList</d6p1:FullTypeName>
+                          <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                          <d6p1:Members>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_ref</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>client_name</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_location_name</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_location_zip</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_time</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_id</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.Int32</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>Int32</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointments_filled</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.Int32</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>Int32</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointments_max</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointments_status</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                            <d6p1:DataTypeMember>
+                              <d6p1:CanRead>true</d6p1:CanRead>
+                              <d6p1:CanWrite>true</d6p1:CanWrite>
+                              <d6p1:DataType>
+                                <d6p1:ElementType i:nil="true" />
+                                <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                                <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                                <d6p1:Members />
+                                <d6p1:Name>String</d6p1:Name>
+                                <d6p1:Namespace>System</d6p1:Namespace>
+                              </d6p1:DataType>
+                              <d6p1:Name>appointment_time_string</d6p1:Name>
+                            </d6p1:DataTypeMember>
+                          </d6p1:Members>
+                          <d6p1:Name>FieldList</d6p1:Name>
+                          <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+                        </d6p1:DataType>
+                        <d6p1:Name>fields</d6p1:Name>
+                      </d6p1:DataTypeMember>
+                    </d6p1:Members>
+                    <d6p1:Name>RecordList</d6p1:Name>
+                    <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+                  </d6p1:ElementType>
+                  <d6p1:FullTypeName>List&lt;HackathonMicroApp.Service.DataTypes.RecordList&gt;</d6p1:FullTypeName>
+                  <d6p1:ListDictionaryType>List</d6p1:ListDictionaryType>
+                  <d6p1:Members />
+                  <d6p1:Name>List&lt;RecordList&gt;</d6p1:Name>
+                  <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+                </d6p1:DataType>
+                <d6p1:Name>records</d6p1:Name>
+              </d6p1:DataTypeMember>
+            </d6p1:Members>
+            <d6p1:Name>AppointmentData</d6p1:Name>
+            <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+          </d2p1:ReturnType>
+        </d2p1:CloudMethod>
+      </d2p1:Methods>
+      <d2p1:Name>Appointments_Service</d2p1:Name>
+      <d2p1:Namespace>HackathonMicroApp.Service.Services</d2p1:Namespace>
+      <d2p1:ServiceBehaviorAttribute>
+        <d2p1:AddressFilterMode>Exact</d2p1:AddressFilterMode>
+        <d2p1:AutomaticSessionShutdown>false</d2p1:AutomaticSessionShutdown>
+        <d2p1:ConcurrencyMode>Single</d2p1:ConcurrencyMode>
+        <d2p1:ConfigurationName i:nil="true" />
+        <d2p1:IgnoreExtensionDataObject>false</d2p1:IgnoreExtensionDataObject>
+        <d2p1:IncludeExceptionDetailInFaults>false</d2p1:IncludeExceptionDetailInFaults>
+        <d2p1:InstanceContextMode>PerSession</d2p1:InstanceContextMode>
+        <d2p1:IsEnabled>false</d2p1:IsEnabled>
+        <d2p1:MaxItemsInObjectGraph>0</d2p1:MaxItemsInObjectGraph>
+        <d2p1:Name i:nil="true" />
+        <d2p1:Namespace i:nil="true" />
+        <d2p1:ReleaseServiceInstanceOnTransactionComplete>false</d2p1:ReleaseServiceInstanceOnTransactionComplete>
+        <d2p1:TransactionAutoCompleteOnSessionClose>false</d2p1:TransactionAutoCompleteOnSessionClose>
+        <d2p1:TransactionIsolationLevel>Serializable</d2p1:TransactionIsolationLevel>
+        <d2p1:TransactionTimeout></d2p1:TransactionTimeout>
+        <d2p1:UseSynchronizationContext>false</d2p1:UseSynchronizationContext>
+        <d2p1:ValidateMustUnderstand>false</d2p1:ValidateMustUnderstand>
+      </d2p1:ServiceBehaviorAttribute>
+    </d2p1:CloudService>
+  </Services>
+  <SettingsKeys xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <StagingAppId>7177d685-955c-43e4-9405-ea703de1663f</StagingAppId>
+  <UsePhoneScreensOnTablet>true</UsePhoneScreensOnTablet>
+  <UseTintColorForAppIcon>false</UseTintColorForAppIcon>
+  <Version>4.0.0.0</Version>
+  <ViewModels xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.Model">
+    <d2p1:CloudViewModel>
+      <d2p1:Actions>
+        <d2p1:CloudAction>
+          <d2p1:CardAction>None</d2p1:CardAction>
+          <d2p1:IsSocialAction>false</d2p1:IsSocialAction>
+          <d2p1:MethodName>GetAppointmentData</d2p1:MethodName>
+          <d2p1:Name>GetAppointmentData</d2p1:Name>
+          <d2p1:Parameters>
+            <d2p1:CloudActionParameter>
+              <d2p1:DataType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>System.String</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members />
+                <d8p1:Name>String</d8p1:Name>
+                <d8p1:Namespace>System</d8p1:Namespace>
+              </d2p1:DataType>
+              <d2p1:Direction>In</d2p1:Direction>
+              <d2p1:Mapping i:nil="true" />
+              <d2p1:Name>ZipCode</d2p1:Name>
+            </d2p1:CloudActionParameter>
+          </d2p1:Parameters>
+          <d2p1:ReturnParameter>
+            <d2p1:DataType xmlns:d7p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+              <d7p1:ElementType i:nil="true" />
+              <d7p1:FullTypeName>HackathonMicroApp.Service.DataTypes.AppointmentData</d7p1:FullTypeName>
+              <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+              <d7p1:Members>
+                <d7p1:DataTypeMember>
+                  <d7p1:CanRead>true</d7p1:CanRead>
+                  <d7p1:CanWrite>true</d7p1:CanWrite>
+                  <d7p1:DataType>
+                    <d7p1:ElementType>
+                      <d7p1:ElementType i:nil="true" />
+                      <d7p1:FullTypeName>HackathonMicroApp.Service.DataTypes.RecordList</d7p1:FullTypeName>
+                      <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                      <d7p1:Members>
+                        <d7p1:DataTypeMember>
+                          <d7p1:CanRead>true</d7p1:CanRead>
+                          <d7p1:CanWrite>true</d7p1:CanWrite>
+                          <d7p1:DataType>
+                            <d7p1:ElementType i:nil="true" />
+                            <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                            <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                            <d7p1:Members />
+                            <d7p1:Name>String</d7p1:Name>
+                            <d7p1:Namespace>System</d7p1:Namespace>
+                          </d7p1:DataType>
+                          <d7p1:Name>id</d7p1:Name>
+                        </d7p1:DataTypeMember>
+                        <d7p1:DataTypeMember>
+                          <d7p1:CanRead>true</d7p1:CanRead>
+                          <d7p1:CanWrite>true</d7p1:CanWrite>
+                          <d7p1:DataType>
+                            <d7p1:ElementType i:nil="true" />
+                            <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                            <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                            <d7p1:Members />
+                            <d7p1:Name>String</d7p1:Name>
+                            <d7p1:Namespace>System</d7p1:Namespace>
+                          </d7p1:DataType>
+                          <d7p1:Name>createdTime</d7p1:Name>
+                        </d7p1:DataTypeMember>
+                        <d7p1:DataTypeMember>
+                          <d7p1:CanRead>true</d7p1:CanRead>
+                          <d7p1:CanWrite>true</d7p1:CanWrite>
+                          <d7p1:DataType>
+                            <d7p1:ElementType i:nil="true" />
+                            <d7p1:FullTypeName>HackathonMicroApp.Service.DataTypes.FieldList</d7p1:FullTypeName>
+                            <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                            <d7p1:Members>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_ref</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>client_name</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_location_name</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_location_zip</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_time</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_id</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.Int32</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>Int32</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointments_filled</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.Int32</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>Int32</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointments_max</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointments_status</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                              <d7p1:DataTypeMember>
+                                <d7p1:CanRead>true</d7p1:CanRead>
+                                <d7p1:CanWrite>true</d7p1:CanWrite>
+                                <d7p1:DataType>
+                                  <d7p1:ElementType i:nil="true" />
+                                  <d7p1:FullTypeName>System.String</d7p1:FullTypeName>
+                                  <d7p1:ListDictionaryType>None</d7p1:ListDictionaryType>
+                                  <d7p1:Members />
+                                  <d7p1:Name>String</d7p1:Name>
+                                  <d7p1:Namespace>System</d7p1:Namespace>
+                                </d7p1:DataType>
+                                <d7p1:Name>appointment_time_string</d7p1:Name>
+                              </d7p1:DataTypeMember>
+                            </d7p1:Members>
+                            <d7p1:Name>FieldList</d7p1:Name>
+                            <d7p1:Namespace>HackathonMicroApp.Service.DataTypes</d7p1:Namespace>
+                          </d7p1:DataType>
+                          <d7p1:Name>fields</d7p1:Name>
+                        </d7p1:DataTypeMember>
+                      </d7p1:Members>
+                      <d7p1:Name>RecordList</d7p1:Name>
+                      <d7p1:Namespace>HackathonMicroApp.Service.DataTypes</d7p1:Namespace>
+                    </d7p1:ElementType>
+                    <d7p1:FullTypeName>List&lt;HackathonMicroApp.Service.DataTypes.RecordList&gt;</d7p1:FullTypeName>
+                    <d7p1:ListDictionaryType>List</d7p1:ListDictionaryType>
+                    <d7p1:Members />
+                    <d7p1:Name>List&lt;RecordList&gt;</d7p1:Name>
+                    <d7p1:Namespace>HackathonMicroApp.Service.DataTypes</d7p1:Namespace>
+                  </d7p1:DataType>
+                  <d7p1:Name>records</d7p1:Name>
+                </d7p1:DataTypeMember>
+              </d7p1:Members>
+              <d7p1:Name>AppointmentData</d7p1:Name>
+              <d7p1:Namespace>HackathonMicroApp.Service.DataTypes</d7p1:Namespace>
+            </d2p1:DataType>
+            <d2p1:Direction>Out</d2p1:Direction>
+            <d2p1:Mapping>
+              <d2p1:CanRead>false</d2p1:CanRead>
+              <d2p1:CanWrite>false</d2p1:CanWrite>
+              <d2p1:DataType xmlns:d8p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+                <d8p1:ElementType i:nil="true" />
+                <d8p1:FullTypeName>HackathonMicroApp.Service.DataTypes.AppointmentData</d8p1:FullTypeName>
+                <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                <d8p1:Members>
+                  <d8p1:DataTypeMember>
+                    <d8p1:CanRead>true</d8p1:CanRead>
+                    <d8p1:CanWrite>true</d8p1:CanWrite>
+                    <d8p1:DataType>
+                      <d8p1:ElementType>
+                        <d8p1:ElementType i:nil="true" />
+                        <d8p1:FullTypeName>HackathonMicroApp.Service.DataTypes.RecordList</d8p1:FullTypeName>
+                        <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                        <d8p1:Members>
+                          <d8p1:DataTypeMember>
+                            <d8p1:CanRead>true</d8p1:CanRead>
+                            <d8p1:CanWrite>true</d8p1:CanWrite>
+                            <d8p1:DataType>
+                              <d8p1:ElementType i:nil="true" />
+                              <d8p1:FullTypeName>System.String</d8p1:FullTypeName>
+                              <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                              <d8p1:Members />
+                              <d8p1:Name>String</d8p1:Name>
+                              <d8p1:Namespace>System</d8p1:Namespace>
+                            </d8p1:DataType>
+                            <d8p1:Name>id</d8p1:Name>
+                          </d8p1:DataTypeMember>
+                          <d8p1:DataTypeMember>
+                            <d8p1:CanRead>true</d8p1:CanRead>
+                            <d8p1:CanWrite>true</d8p1:CanWrite>
+                            <d8p1:DataType>
+                              <d8p1:ElementType i:nil="true" />
+                              <d8p1:FullTypeName>System.String</d8p1:FullTypeName>
+                              <d8p1:ListDictionaryType>None</d8p1:ListDictionaryType>
+                              <d8p1:Members />
+                              <d8p1:Name>String</d8p1:Name>
+                              <d8p1:Namespace>System</d8p1:Namespace>
+                            </d8p1:DataType>
+                            <d8p1:Name>createdTime</d8p1:Name>
+                          </d8p1:DataTypeMember>
+                        </d8p1:Members>
+                        <d8p1:Name>RecordList</d8p1:Name>
+                        <d8p1:Namespace>HackathonMicroApp.Service.DataTypes</d8p1:Namespace>
+                      </d8p1:ElementType>
+                      <d8p1:FullTypeName>List&lt;HackathonMicroApp.Service.DataTypes.RecordList&gt;</d8p1:FullTypeName>
+                      <d8p1:ListDictionaryType>List</d8p1:ListDictionaryType>
+                      <d8p1:Members />
+                      <d8p1:Name>List&lt;RecordList&gt;</d8p1:Name>
+                      <d8p1:Namespace>HackathonMicroApp.Service.DataTypes</d8p1:Namespace>
+                    </d8p1:DataType>
+                    <d8p1:Name>records</d8p1:Name>
+                  </d8p1:DataTypeMember>
+                </d8p1:Members>
+                <d8p1:Name>AppointmentData</d8p1:Name>
+                <d8p1:Namespace>HackathonMicroApp.Service.DataTypes</d8p1:Namespace>
+              </d2p1:DataType>
+              <d2p1:IsSocialField>false</d2p1:IsSocialField>
+              <d2p1:Name>GetAppointmentData</d2p1:Name>
+            </d2p1:Mapping>
+            <d2p1:Name>GetAppointmentData</d2p1:Name>
+          </d2p1:ReturnParameter>
+          <d2p1:ServiceName>Appointments_Service</d2p1:ServiceName>
+        </d2p1:CloudAction>
+      </d2p1:Actions>
+      <d2p1:BasedOnDataType xmlns:d4p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes" i:nil="true" />
+      <d2p1:Fields>
+        <d2p1:CloudField>
+          <d2p1:CanRead>false</d2p1:CanRead>
+          <d2p1:CanWrite>false</d2p1:CanWrite>
+          <d2p1:DataType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:ElementType i:nil="true" />
+            <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+            <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+            <d6p1:Members />
+            <d6p1:Name>String</d6p1:Name>
+            <d6p1:Namespace>System</d6p1:Namespace>
+          </d2p1:DataType>
+          <d2p1:IsSocialField>false</d2p1:IsSocialField>
+          <d2p1:Name>ZipCode</d2p1:Name>
+        </d2p1:CloudField>
+        <d2p1:CloudField>
+          <d2p1:CanRead>false</d2p1:CanRead>
+          <d2p1:CanWrite>false</d2p1:CanWrite>
+          <d2p1:DataType xmlns:d6p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.DataTypes">
+            <d6p1:ElementType i:nil="true" />
+            <d6p1:FullTypeName>HackathonMicroApp.Service.DataTypes.AppointmentData</d6p1:FullTypeName>
+            <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+            <d6p1:Members>
+              <d6p1:DataTypeMember>
+                <d6p1:CanRead>true</d6p1:CanRead>
+                <d6p1:CanWrite>true</d6p1:CanWrite>
+                <d6p1:DataType>
+                  <d6p1:ElementType>
+                    <d6p1:ElementType i:nil="true" />
+                    <d6p1:FullTypeName>HackathonMicroApp.Service.DataTypes.RecordList</d6p1:FullTypeName>
+                    <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                    <d6p1:Members>
+                      <d6p1:DataTypeMember>
+                        <d6p1:CanRead>true</d6p1:CanRead>
+                        <d6p1:CanWrite>true</d6p1:CanWrite>
+                        <d6p1:DataType>
+                          <d6p1:ElementType i:nil="true" />
+                          <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                          <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                          <d6p1:Members />
+                          <d6p1:Name>String</d6p1:Name>
+                          <d6p1:Namespace>System</d6p1:Namespace>
+                        </d6p1:DataType>
+                        <d6p1:Name>id</d6p1:Name>
+                      </d6p1:DataTypeMember>
+                      <d6p1:DataTypeMember>
+                        <d6p1:CanRead>true</d6p1:CanRead>
+                        <d6p1:CanWrite>true</d6p1:CanWrite>
+                        <d6p1:DataType>
+                          <d6p1:ElementType i:nil="true" />
+                          <d6p1:FullTypeName>System.String</d6p1:FullTypeName>
+                          <d6p1:ListDictionaryType>None</d6p1:ListDictionaryType>
+                          <d6p1:Members />
+                          <d6p1:Name>String</d6p1:Name>
+                          <d6p1:Namespace>System</d6p1:Namespace>
+                        </d6p1:DataType>
+                        <d6p1:Name>createdTime</d6p1:Name>
+                      </d6p1:DataTypeMember>
+                    </d6p1:Members>
+                    <d6p1:Name>RecordList</d6p1:Name>
+                    <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+                  </d6p1:ElementType>
+                  <d6p1:FullTypeName>List&lt;HackathonMicroApp.Service.DataTypes.RecordList&gt;</d6p1:FullTypeName>
+                  <d6p1:ListDictionaryType>List</d6p1:ListDictionaryType>
+                  <d6p1:Members />
+                  <d6p1:Name>List&lt;RecordList&gt;</d6p1:Name>
+                  <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+                </d6p1:DataType>
+                <d6p1:Name>records</d6p1:Name>
+              </d6p1:DataTypeMember>
+            </d6p1:Members>
+            <d6p1:Name>AppointmentData</d6p1:Name>
+            <d6p1:Namespace>HackathonMicroApp.Service.DataTypes</d6p1:Namespace>
+          </d2p1:DataType>
+          <d2p1:IsSocialField>false</d2p1:IsSocialField>
+          <d2p1:Name>GetAppointmentData</d2p1:Name>
+        </d2p1:CloudField>
+      </d2p1:Fields>
+      <d2p1:Name>HackathonMicroAppViewModel</d2p1:Name>
+    </d2p1:CloudViewModel>
+  </ViewModels>
+  <VsConfiguration xmlns:d2p1="http://schemas.datacontract.org/2004/07/Sitrion.ServiceStudio.UI.Core.VsIntegration">
+    <d2p1:Client i:nil="true" />
+    <d2p1:Converters>
+      <d2p1:CustomFolderName></d2p1:CustomFolderName>
+      <d2p1:GeneratedFolderName>Converters</d2p1:GeneratedFolderName>
+      <d2p1:IsOptional>false</d2p1:IsOptional>
+      <d2p1:Namespace>HackathonMicroApp.Service.Converters</d2p1:Namespace>
+      <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+      <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+      <d2p1:ProjectType i:nil="true" />
+    </d2p1:Converters>
+    <d2p1:Datatypes>
+      <d2p1:CustomFolderName>DataTypes</d2p1:CustomFolderName>
+      <d2p1:GeneratedFolderName>Generated</d2p1:GeneratedFolderName>
+      <d2p1:IsOptional>false</d2p1:IsOptional>
+      <d2p1:Namespace>HackathonMicroApp.Service.DataTypes</d2p1:Namespace>
+      <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+      <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+      <d2p1:ProjectType i:nil="true" />
+    </d2p1:Datatypes>
+    <d2p1:Mappings>
+      <d2p1:Mapping>
+        <d2p1:Name>Datatypes</d2p1:Name>
+        <d2p1:ProjectMapping>
+          <d2p1:CustomFolderName>DataTypes</d2p1:CustomFolderName>
+          <d2p1:GeneratedFolderName>Generated</d2p1:GeneratedFolderName>
+          <d2p1:IsOptional>false</d2p1:IsOptional>
+          <d2p1:Namespace>HackathonMicroApp.Service.DataTypes</d2p1:Namespace>
+          <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+          <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+          <d2p1:ProjectType i:nil="true" />
+        </d2p1:ProjectMapping>
+      </d2p1:Mapping>
+      <d2p1:Mapping>
+        <d2p1:Name>Services</d2p1:Name>
+        <d2p1:ProjectMapping>
+          <d2p1:CustomFolderName>Services</d2p1:CustomFolderName>
+          <d2p1:GeneratedFolderName>Generated</d2p1:GeneratedFolderName>
+          <d2p1:IsOptional>false</d2p1:IsOptional>
+          <d2p1:Namespace>HackathonMicroApp.Service.Services</d2p1:Namespace>
+          <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+          <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+          <d2p1:ProjectType i:nil="true" />
+        </d2p1:ProjectMapping>
+      </d2p1:Mapping>
+      <d2p1:Mapping>
+        <d2p1:Name>ViewModels</d2p1:Name>
+        <d2p1:ProjectMapping i:nil="true" />
+      </d2p1:Mapping>
+      <d2p1:Mapping>
+        <d2p1:Name>Converters</d2p1:Name>
+        <d2p1:ProjectMapping>
+          <d2p1:CustomFolderName></d2p1:CustomFolderName>
+          <d2p1:GeneratedFolderName>Converters</d2p1:GeneratedFolderName>
+          <d2p1:IsOptional>false</d2p1:IsOptional>
+          <d2p1:Namespace>HackathonMicroApp.Service.Converters</d2p1:Namespace>
+          <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+          <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+          <d2p1:ProjectType i:nil="true" />
+        </d2p1:ProjectMapping>
+      </d2p1:Mapping>
+      <d2p1:Mapping>
+        <d2p1:Name>Plugins</d2p1:Name>
+        <d2p1:ProjectMapping i:nil="true" />
+      </d2p1:Mapping>
+      <d2p1:Mapping>
+        <d2p1:Name>Client</d2p1:Name>
+        <d2p1:ProjectMapping i:nil="true" />
+      </d2p1:Mapping>
+    </d2p1:Mappings>
+    <d2p1:Plugins i:nil="true" />
+    <d2p1:ProxyAssemblies xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <d2p1:Services>
+      <d2p1:CustomFolderName>Services</d2p1:CustomFolderName>
+      <d2p1:GeneratedFolderName>Generated</d2p1:GeneratedFolderName>
+      <d2p1:IsOptional>false</d2p1:IsOptional>
+      <d2p1:Namespace>HackathonMicroApp.Service.Services</d2p1:Namespace>
+      <d2p1:ProjectFile>HackathonMicroApp.Service.csproj</d2p1:ProjectFile>
+      <d2p1:ProjectFolder>HackathonMicroApp.Service</d2p1:ProjectFolder>
+      <d2p1:ProjectType i:nil="true" />
+    </d2p1:Services>
+    <d2p1:ViewModels i:nil="true" />
+  </VsConfiguration>
+</CloudEntity>

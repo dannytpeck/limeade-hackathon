@@ -1,0 +1,87 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <EntityType>Sitrion Designer</EntityType>
+    <EntitySubType>Systems</EntitySubType>
+    <AssemblyName>HackathonMicroApp</AssemblyName>
+    <Name>HackathonMicroApp</Name>
+    <RootNamespace>HackathonMicroApp</RootNamespace>
+    <!--<OutputType>Library</OutputType>
+    <RootNamespace>MyRootNamespace</RootNamespace>
+   <AssemblyName>MyAssemblyName</AssemblyName>
+   <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>-->
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Assets\theme.sot">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Entity.s42">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Systems" />
+  </ItemGroup>
+  <Target Name="Clean">
+    <Message Text="Sitrion Project does not produce an output. Nothing to clean." Importance="high" />
+  </Target>
+  <Target Name="Build">
+    <Message Text="Sitrion Project does not produce an output." Importance="high" />
+  </Target>
+  <Target Name="ReBuild">
+    <Message Text="Sitrion Project does not produce an output." Importance="high" />
+  </Target>
+  <Target Name="GetFrameworkPaths">
+    <Message Text="There is no FW Path needed for this Sitrion Project." Importance="high" />
+  </Target>
+  <!--<Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />-->
+  <!--<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		-->
+  <!--<ProductVersion>3.0</ProductVersion>-->
+  <!--
+		<ProjectGuid>d608aeaf-5f14-4671-b03c-d336e5146753</ProjectGuid>
+		-->
+  <!--<SchemaVersion>2.0</SchemaVersion>-->
+  <!--
+		-->
+  <!--<OutputName>HackathonMicroApp</OutputName>-->
+  <!--
+		-->
+  <!--<OutputType>Library</OutputType>-->
+  <!-- 
+    <OutputName>HackathonMicroApp</OutputName>
+		-->
+  <!--<WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.0\Wix.targets</WixTargetsPath>-->
+  <!--
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+		<IntermediateOutputPath>obj\Debug\</IntermediateOutputPath>
+	</PropertyGroup>-->
+  <!--<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+		<OutputPath>bin\Release\</OutputPath>
+		<IntermediateOutputPath>obj\Release\</IntermediateOutputPath>
+	</PropertyGroup>-->
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

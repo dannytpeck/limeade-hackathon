@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FullSelection><System><RESTSystem Type="Sitrion.ServiceStudio.UI.RESTAdapter.RESTSystem, Sitrion.ServiceStudio.UI.RESTAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <EndpointId>4b814389-30ca-4e61-878e-0c8fbe325c77</EndpointId>
+  <Name>Appointments</Name>
+</RESTSystem></System><SelectedNodes><XmlSerializableListOfSelectedNode Type="Sitrion.One.SystemTypes.XmlSerializableList`1[[Sitrion.One.SystemTypes.SelectedNode, Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129]], Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129">
+  <SelectedNode Type="Sitrion.One.SystemTypes.SelectedNode, Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129">
+    <Node>
+      <RESTActionNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Type="Sitrion.ServiceStudio.UI.RESTAdapter.RESTActionNode, Sitrion.ServiceStudio.UI.RESTAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Id xsi:type="xsd:string">0</Id>
+        <Title>Appointments</Title>
+      </RESTActionNode>
+    </Node>
+    <Options>
+      <XmlSerializableListOfSelectionOption Type="Sitrion.One.SystemTypes.XmlSerializableList`1[[Sitrion.One.SystemTypes.SelectionOption, Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129]], Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129" />
+    </Options>
+  </SelectedNode>
+</XmlSerializableListOfSelectedNode></SelectedNodes></FullSelection>

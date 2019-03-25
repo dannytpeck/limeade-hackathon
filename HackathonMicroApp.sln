@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonMicroApp.Service", "HackathonMicroApp\HackathonMicroApp.Service\HackathonMicroApp.Service.csproj", "{FB5E9B2D-9AC7-4620-8E6A-339BA157E4E7}"
+EndProject
+Project("{999CFA43-3DB8-47FB-8882-95EBBCC394E8}") = "HackathonMicroApp", "HackathonMicroApp\HackathonMicroApp.sep", "{F4E4EA0F-DB4F-4207-BD2C-270BF47EC1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E7C07D97-D311-4174-B2AB-01BD10E46668}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB5E9B2D-9AC7-4620-8E6A-339BA157E4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5E9B2D-9AC7-4620-8E6A-339BA157E4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5E9B2D-9AC7-4620-8E6A-339BA157E4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5E9B2D-9AC7-4620-8E6A-339BA157E4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E4EA0F-DB4F-4207-BD2C-270BF47EC1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E4EA0F-DB4F-4207-BD2C-270BF47EC1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E4EA0F-DB4F-4207-BD2C-270BF47EC1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E4EA0F-DB4F-4207-BD2C-270BF47EC1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02761164-D317-45CC-9771-D676A7EEE89F}
+	EndGlobalSection
+EndGlobal
