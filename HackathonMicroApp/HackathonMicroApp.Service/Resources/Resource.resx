@@ -117,37 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="id130a940a_0ba9_4ebe_bb6f_040d1c4becc5_Text" xml:space="preserve">
-    <value>ActionList</value>
-  </data>
-  <data name="idf9afa73d_5c56_411d_a29b_c59a9a814880_Text" xml:space="preserve">
-    <value>{fields.appointment_location_name}</value>
-  </data>
-  <data name="ida25533f0_df71_4ac6_8e64_7c43964175dd_WatermarkText" xml:space="preserve">
-    <value>Enter your zip code</value>
+  <data name="idef2eede7_e8d4_4247_98c6_2714ddff92eb_Text" xml:space="preserve">
+    <value>ActionButton</value>
   </data>
   <data name="idf83374f2_b8d9_4831_9463_1d5a9a64e51c_Text" xml:space="preserve">
     <value>Action</value>
   </data>
-  <data name="idf11535e2_5f93_4ea9_8345_10aef3b8be7f_Text" xml:space="preserve">
+  <data name="idbe6d8bd9_4604_4fe2_a176_8952b6645220_" xml:space="preserve">
+    <value>Input Your User Data</value>
+  </data>
+  <data name="id7b254a83_ecb2_4c23_abb9_5c85b554cd92_Text" xml:space="preserve">
     <value />
   </data>
   <data name="idd4aea3ca_46c7_45cd_b22e_48b417b7dc83_Text" xml:space="preserve">
     <value />
   </data>
+  <data name="idbefdb552_7683_4aa7_b30e_07526db35e57_DisplayMemberPath" xml:space="preserve">
+    <value>{fields.appointment_location} {fields.appointment_time_string}</value>
+  </data>
+  <data name="id4f645ed0_0acb_4763_ba6e_90b96820d9d3_Text" xml:space="preserve">
+    <value>Available Appointments</value>
+  </data>
+  <data name="id6f319673_3bd9_4da9_9494_aeb36fce526b_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="id47336487_778b_4ba5_97e7_1d9fe41bbc42_WatermarkText" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="idd5d144ad_38ee_4070_9d1a_07f08fd0ee5b_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="id14e5ffd8_03b5_4abe_b7ce_f75b23f0e2cb_Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="idf4f00b96_eb9d_4cbd_8c4c_d901ae793ac3_Text" xml:space="preserve">
+    <value>Select Appointment</value>
+  </data>
+  <data name="id20170a91_1dcd_469b_9a6c_a3d5f125c1fe_Text" xml:space="preserve">
+    <value>{selectedRecord.fields.appointment_location_address}</value>
+  </data>
+  <data name="idc82e96be_e6c1_42a9_8959_f0eb4ab5ebdc_Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="iddb5df71e_b2fe_43dc_ae63_e52007e53a1c_Label" xml:space="preserve">
+    <value />
+  </data>
   <data name="id30cba3be_d4dc_4abf_838f_0cf0f94f7f9a_" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="id74b6d69c_b5ae_4c47_a569_bf1dd1c21ab3_Text" xml:space="preserve">
-    <value>{fields.appointment_time_string}</value>
-  </data>
-  <data name="idb3a697da_61f8_4b38_b43c_1bbfb0954f1f_Text" xml:space="preserve">
-    <value>ActionButton</value>
+    <value>WellMetrics Scheduler</value>
   </data>
   <data name="id6d6b10dd_00b8_4209_b8e1_cc4aea32bd27_Text" xml:space="preserve">
     <value>My Card Type</value>
   </data>
-  <data name="idf7a670ed_f63e_4c25_a3d7_cbf3ee3313a8_Text" xml:space="preserve">
-    <value>Get Appointments</value>
+  <data name="id645eb6f7_1f9c_4d10_90e4_dee30eec6993_Text" xml:space="preserve">
+    <value>{selectedRecord.fields.client_name}</value>
+  </data>
+  <data name="id272aacd9_0643_40c5_8fe7_4d716a325794_WatermarkText" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="id025bc922_0897_44fc_b801_05da4ce21042_Text" xml:space="preserve">
+    <value>Your appointment is scheduled!</value>
+  </data>
+  <data name="idccf59776_f639_49d3_8e20_09b92b912bca_" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="id8c643f3f_4e17_48b6_99ac_94ae9173690d_Text" xml:space="preserve">
+    <value>{selectedRecord.fields.appointment_location}</value>
+  </data>
+  <data name="id024ed894_a674_401a_bcf8_7973d3ab2706_Text" xml:space="preserve">
+    <value>Confirm Appointment</value>
+  </data>
+  <data name="id32ec2cc3_a483_4965_adad_db0ba07f14e1_Text" xml:space="preserve">
+    <value>{selectedRecord.fields.appointment_time_string}</value>
+  </data>
+  <data name="id97969d77_6ff3_4f9e_bd67_5b7e38f0e8fd_Text" xml:space="preserve">
+    <value>Confirm Appointment</value>
+  </data>
+  <data name="id094d60ec_4068_4c39_b58d_41023ce9efb2_WatermarkText" xml:space="preserve">
+    <value>Enter your zip code</value>
+  </data>
+  <data name="ida70fe0af_4dd7_4eb0_998e_14d5c98393bc_WatermarkText" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="idd92edf40_dbaa_43e0_bd8d_a0a78cd2ff61_Text" xml:space="preserve">
+    <value>Confirm Appointment</value>
+  </data>
+  <data name="idc5336466_be60_4513_ba64_261289190cfe_" xml:space="preserve">
+    <value>{BASEURL}sunset.jpg</value>
+  </data>
+  <data name="id7867e9bb_f8de_40e3_bb93_09789d7b1cc6_WatermarkText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="idbefdb552_7683_4aa7_b30e_07526db35e57_WatermarkText" xml:space="preserve">
+    <value>Select an Appointment</value>
+  </data>
+  <data name="id4c5bf7d1_375c_4d87_a903_b09a3adbcb99_Text" xml:space="preserve">
+    <value>NavigationControl</value>
   </data>
 </root>

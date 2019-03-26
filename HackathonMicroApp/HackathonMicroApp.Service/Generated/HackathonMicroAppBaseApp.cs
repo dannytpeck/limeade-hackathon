@@ -48,6 +48,8 @@ namespace HackathonMicroApp.Service.Services
 		public string CategoryApplicationId { get; set; }
 		
 		protected Appointments_Service s_Appointments_Service = new Appointments_Service();
+		protected Scheduled_Service s_Scheduled_Service = new Scheduled_Service();
+		protected SelectedAppointment s_SelectedAppointment = new SelectedAppointment();
 		
 		protected virtual void BeforeInternalInit()
 		{
@@ -60,6 +62,8 @@ namespace HackathonMicroApp.Service.Services
 		{
 			BeforeInternalInit();
 			s_Appointments_Service.Application = this;
+			s_Scheduled_Service.Application = this;
+			s_SelectedAppointment.Application = this;
 			AfterInternalInit();
 		}
 		
@@ -95,16 +99,29 @@ namespace HackathonMicroApp.Service.Services
 			
 			switch ( message.MethodName )
 			{
-				case "HackathonMicroAppViewModel_GetLibraryData":
-					{
-					}
-					break;
-					
 				case "HackathonMicroAppViewModel_GetAppointmentData":
 					{
 						System.String p_ZipCode = default ( System.String );
+						p_ZipCode = Helpers.AppBuilder.GetParameterValue<System.String> ( message.MethodParams, "ZipCode" );
 						HackathonMicroApp.Service.DataTypes.AppointmentData retVal = s_Appointments_Service.GetAppointmentData ( p_ZipCode );
 						message.MethodParams.Add ( "GetAppointmentData", retVal );
+					}
+					break;
+					
+				case "HackathonMicroAppViewModel_saveScheduledAppointment":
+					{
+						System.String p_FirstName = default ( System.String );
+						System.String p_LastName = default ( System.String );
+						System.String p_BirthDate = default ( System.String );
+						System.String p_Email = default ( System.String );
+						HackathonMicroApp.Service.DataTypes.RecordList p_selectedRecord = default ( HackathonMicroApp.Service.DataTypes.RecordList );
+						p_FirstName = Helpers.AppBuilder.GetParameterValue<System.String> ( message.MethodParams, "FirstName" );
+						p_LastName = Helpers.AppBuilder.GetParameterValue<System.String> ( message.MethodParams, "LastName" );
+						p_BirthDate = Helpers.AppBuilder.GetParameterValue<System.String> ( message.MethodParams, "BirthDate" );
+						p_Email = Helpers.AppBuilder.GetParameterValue<System.String> ( message.MethodParams, "Email" );
+						p_selectedRecord = Helpers.AppBuilder.GetParameterValue<HackathonMicroApp.Service.DataTypes.RecordList> ( message.MethodParams, "selectedRecord" );
+						System.Int32 retVal = s_Scheduled_Service.saveScheduledAppointment ( p_FirstName, p_LastName, p_BirthDate, p_Email, p_selectedRecord );
+						message.MethodParams.Add ( "saveScheduledAppointment", retVal );
 					}
 					break;
 			}

@@ -28,11 +28,35 @@ namespace HackathonMicroApp.Service.Services
 	{
 	
 		[DataMember]
+		public HackathonMicroApp.Service.DataTypes.AppointmentData GetAppointmentData { get; set; }
+		
+		
+		[DataMember]
 		public System.String ZipCode { get; set; }
 		
 		
 		[DataMember]
-		public HackathonMicroApp.Service.DataTypes.AppointmentData GetAppointmentData { get; set; }
+		public System.Int32 saveScheduledAppointment { get; set; }
+		
+		
+		[DataMember]
+		public System.String FirstName { get; set; }
+		
+		
+		[DataMember]
+		public System.String LastName { get; set; }
+		
+		
+		[DataMember]
+		public System.String BirthDate { get; set; }
+		
+		
+		[DataMember]
+		public System.String Email { get; set; }
+		
+		
+		[DataMember]
+		public HackathonMicroApp.Service.DataTypes.RecordList selectedRecord { get; set; }
 		
 		
 	}

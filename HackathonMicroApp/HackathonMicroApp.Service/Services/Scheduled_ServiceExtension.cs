@@ -11,35 +11,37 @@ namespace HackathonMicroApp.Service.Services
 	using Newtonsoft.Json;
 	using HackathonMicroApp.Service.DataTypes;
 	
-	public partial class Appointments_Service
+	public partial class Scheduled_Service
 	{
-        public AppointmentData AppointmentData { get; set; }
-
-        public AppointmentData GetAppointmentData(string ZipCode)
-        {   
+        public int saveScheduledAppointment(string FirstName, string LastName, string BirthDate, string Email, RecordList selectedRecord)
+        {
             var request = new ExecutionRequest();
             request.EntityToExecuteAgainst = new ExecutionEntity();
             request.EntityToExecuteAgainst.EntityName = "SampleCall";
 
-            var urlFragment = "?api_key=keyCxnlep0bgotSrX";
-            if (ZipCode != null && ZipCode.Length == 5)
-            {
-                urlFragment = "?api_key=keyCxnlep0bgotSrX&filterByFormula=({appointment_location_zip}=" + ZipCode + ")";
-            }
+            Appointment appointment = new Appointment();
+            appointment.first_name = FirstName;
+            appointment.last_name = LastName;
+            appointment.appointment_status = "scheduled";
+            appointment.appointment_link = new string[] { selectedRecord.id };
+            appointment.birth_date = BirthDate;
+            appointment.email = Email;
+
+            Record record = new Record();
+            record.fields = appointment;
 
             var webRequest = new RemoteWebRequest()
             {
-                RelativeAddress = $"" + urlFragment,
-                BodyContent = null, // Convert your data to Json, eg JsonConvert.SerializeObject(myObj),
-                Method = "GET"
+                RelativeAddress = $"?api_key=keyCxnlep0bgotSrX",
+                BodyContent = JsonConvert.SerializeObject(record),
+                Method = "POST"
             };
             request.Parameters.Add("request", webRequest);
             var response = Runtime.SendRequest(request);
             var result = JsonConvert.DeserializeObject<RemoteWebResponse>(response.ReturnParameters["result"] as string);
-            // Handle your result data in result.Response!
 
-            AppointmentData = JsonConvert.DeserializeObject<AppointmentData>(result.Response);
-            return AppointmentData;
+            return 0;
         }
+
     }
 }

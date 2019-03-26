@@ -8,23 +8,6 @@ using System.Threading.Tasks;
 namespace HackathonMicroApp.Service.DataTypes
 {
     [DataContract]
-    public class AppointmentData
-    {
-        [DataMember]
-        public List<RecordList> records { get; set; }
-    }
-
-    [DataContract]
-    public class RecordList
-    {
-        [DataMember]
-        public string id { get; set; }
-        [DataMember]
-        public FieldList fields;
-        public string createdTime { get; set; }
-    }
-
-    [DataContract]
     public class FieldList
     {
         [DataMember]
@@ -32,10 +15,11 @@ namespace HackathonMicroApp.Service.DataTypes
         [DataMember]
         public string client_name { get; set; }
         [DataMember]
-        public string appointment_location_name { get; set; }
+        public string appointment_location { get; set; }
         [DataMember]
         public string appointment_location_zip { get; set; }
         [DataMember]
+        public string appointment_location_address { get; set; }
         public string appointment_time { get; set; }
         [DataMember]
         public string appointment_id { get; set; }

@@ -13,8 +13,8 @@ namespace HackathonMicroApp.Service.Services
 	using Sitrion.Avalanche.Engine.Interfaces;
 	using HackathonMicroApp.Service.DataTypes;
 	
-	[OneService ( SystemTypeName = "REST WebServices", SystemInstanceName = "Appointments", EndpointName = "WellMetrics Appointments" )]
-	public partial class Appointments_Service
+	[OneService ( SystemTypeName = "REST WebServices", SystemInstanceName = "Scheduled", EndpointName = "WellMetrics Scheduled" )]
+	public partial class Scheduled_Service
 	{
 		public ICloudApplication Application { get; set; }
 	}

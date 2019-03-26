@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
 <FullSelection><System><RESTSystem Type="Sitrion.ServiceStudio.UI.RESTAdapter.RESTSystem, Sitrion.ServiceStudio.UI.RESTAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-  <EndpointId>67c38acc-1d3f-4b7a-9637-ed7221448401</EndpointId>
-  <Name>Appointments</Name>
+  <EndpointId>7d922e68-b642-4bd3-9978-434c7fef0db7</EndpointId>
+  <Name>Scheduled</Name>
 </RESTSystem></System><SelectedNodes><XmlSerializableListOfSelectedNode Type="Sitrion.One.SystemTypes.XmlSerializableList`1[[Sitrion.One.SystemTypes.SelectedNode, Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129]], Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129">
   <SelectedNode Type="Sitrion.One.SystemTypes.SelectedNode, Sitrion.One.SystemTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9a03ba085ee9a129">
     <Node>
       <RESTActionNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Type="Sitrion.ServiceStudio.UI.RESTAdapter.RESTActionNode, Sitrion.ServiceStudio.UI.RESTAdapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
         <Id xsi:type="xsd:string">0</Id>
-        <Title>Appointments</Title>
+        <Title>Scheduled</Title>
       </RESTActionNode>
     </Node>
     <Options>

@@ -72,54 +72,6 @@
     <Content Include="Assets\SmallImage_SitIcon.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\sunset%401.5x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset%402x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset%403x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset%404x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset%40RC.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitActionIcon%401.5x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitActionIcon%402x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitActionIcon%403x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitActionIcon%404x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitActionIcon.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitIcon%401.5x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitIcon%402x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitIcon%403x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitIcon%404x.jpg">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\sunset_SitIcon.jpg">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Assets\theme.sot">
       <SubType>Content</SubType>
     </Content>
